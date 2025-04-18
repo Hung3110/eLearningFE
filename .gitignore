@@ -1,0 +1,26 @@
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# VS Code
+.vscode/
+
+# Heavy files
+img/*
+images/*
+assets/*
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.zip
+*.tar.gz
+
+# Node modules (nếu dùng npm)
+node_modules/
+
+# Build output
+dist/
+build/

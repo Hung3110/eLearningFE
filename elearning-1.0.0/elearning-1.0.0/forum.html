@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>eLEARNING - eLearning HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><img src="img/logoCMC.png" width="350" height="70" alt="eLearning icon"></h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="forum.html" class="nav-item nav-link">Forum</a>
+            </div>
+            <a href="login.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    
+    <!--khai-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hội Thảo Công Nghệ 2024</title>
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(to right, #e0f7fa, #80d8ff);
+                color: #333;
+            }
+    
+            header {
+                background: linear-gradient(to right, #1565c0, #42a5f5);
+                color: white;
+                text-align: center;
+                padding: 30px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+    
+            nav {
+                background-color: #0d47a1;
+                overflow: hidden;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+    
+            nav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+                transition: background-color 0.3s, color 0.3s;
+            }
+    
+            nav a:hover {
+                background-color: #64b5f6;
+                color: #0d47a1;
+            }
+    
+            section {
+                padding: 40px;
+                max-width: 1200px;
+                margin: auto;
+            }
+    
+            h2 {
+                color: #0d47a1;
+            }
+    
+            .card {
+                background-color: white;
+                padding: 20px;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                transition: transform 0.2s;
+            }
+    
+            .card:hover {
+                transform: scale(1.05);
+            }
+    
+            .form-container {
+                background-color: white;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+    
+            input, textarea, button {
+                width: 100%;
+                padding: 12px;
+                margin: 12px 0;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                box-sizing: border-box;
+                font-size: 16px;
+            }
+    
+            button {
+                background-color: #1565c0;
+                color: white;
+                border: none;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+    
+            button:hover {
+                background-color: #42a5f5;
+            }
+    
+            footer {
+                text-align: center;
+                padding: 15px;
+                background-color: #0d47a1;
+                color: white;
+                margin-top: 30px;
+            }
+    
+            /* Responsive Design */
+            @media (max-width: 768px) {
+                nav a {
+                    float: none;
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 30px;
+                }
+                .sub-list {
+            padding-left: 20px;
+            list-style-type: square;
+        }
+
+        .sub-list li {
+            margin: 10px 0;
+        }
+
+            }
+        
+            
+            
+        </style>
+        
+
+        
+    </head>
+    <body>
+    
+    <header>
+        <h1>Hội Thảo Công Nghệ 2024</h1>
+        <p>Khám phá tương lai của công nghệ và đổi mới.</p>
+    </header>
+    
+    <nav>
+        <a href="#about">Giới thiệu</a>
+        <a href="#schedule">Lịch trình</a>
+        <a href="#speakers">Diễn giả</a>
+        <a href="#register">Đăng ký</a>
+    </nav>
+    
+    <section id="about">
+        <h2>Giới thiệu về sự kiện</h2>
+        <p>Hội thảo Công Nghệ 2024 là sự kiện quy tụ các chuyên gia hàng đầu trong lĩnh vực công nghệ. Tại đây, bạn sẽ được nghe các bài thuyết trình, tham gia các buổi thảo luận và tìm hiểu về xu hướng mới nhất trong thế giới công nghệ.</p>
+    </section>    
+    <section id="schedule" class="schedule">
+        <h2>Lịch trình sự kiện</h2>
+        <div class="card">
+            <h3>9:00 - 10:00</h3>
+            <p>Khai mạc và giới thiệu chương trình</p>
+        </div>
+        <div class="card">
+            <h3>10:00 - 12:00</h3>
+            <p>Phiên thảo luận: Trí tuệ nhân tạo và Tương lai</p>
+        </div>
+        <div class="card">
+            <h3>13:00 - 15:00</h3>
+            <p>Thực hành: Xây dựng ứng dụng AI đơn giản</p>
+        </div>
+    </section>
+    
+    <section id="speakers" class="speakers">
+        <h2>Các diễn giả</h2>
+        <div class="card">
+            <h3>Ma Trọng Huy</h3>
+            <p>Chuyên gia AI với hơn 10 năm kinh nghiệm.</p>
+        </div>
+        <div class="card">
+            <h3>Trần Ngọc Hùng</h3>
+            <p>Nhà nghiên cứu Blockchain và ứng dụng thực tế.</p>
+        </div>
+        <div class="card">
+            <h3>Trần Quang Khải</h3>
+            <p>Hacker mũ trắng nổi tiếng, chuyên gia về an ninh mạng và phòng thủ mạng.</p>
+        </div>
+        <div class="card">
+            <h3>Nguyễn Mạnh Hùng</h3>
+            <p>Người tiên phong trong thiết kế web đáp ứng (Responsive Web Design), một yếu tố quan trọng cho giao diện hiện đại</p>
+        </div>
+        <div class="card">
+            <h3>Ngô Huy Hưng</h3>
+            <p>Người đồng sáng lập WordPress, nền tảng CMS phổ biến giúp xây dựng hơn 40% các trang web trên toàn thế giới.</p>
+        </div> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tin Tức - Đại Học CMC</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+            body {
+                background-color: #f3f4f6;
+                padding: 20px;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 40px;
+                font-size: 2.5rem;
+                color: #333;
+            }
+            .news-card {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .news-item {
+                background-color: white;
+                border-radius: 12px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                flex: 1 1 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+            .news-item:hover {
+                transform: scale(1.05);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
+            .news-image {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+            .news-content {
+                padding: 20px;
+            }
+            .news-title {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+                color: #007bff;
+                transition: color 0.3s;
+            }
+            .news-title:hover {
+                color: #0056b3;
+            }
+            .news-desc {
+                font-size: 1rem;
+                margin-bottom: 15px;
+                color: #555;
+            }
+            .news-time {
+                display: flex;
+                align-items: center;
+                color: #888;
+                font-size: 0.9rem;
+            }
+            .news-time i {
+                margin-right: 5px;
+            }
+            .see-more {
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border-radius: 8px;
+                text-decoration: none;
+                width: 150px;
+                margin: 30px auto;
+                transition: background-color 0.3s;
+            }
+            .see-more:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="container">
+            <h1>Tin Tức Mới Nhất - Đại Học CMC</h1>
+    
+            <div class="news-card">
+                <div class="news-item">
+                    <img src="https://cmc-u.edu.vn/events/le-khai-giang-nam-hoc-2023-2024-va-chao-don-tan-sinh-vien-khoa-2-digital-world-maker-kien-tao-the-gioi-so/" alt="CMC News" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">CMC tổ chức lễ khai giảng năm học mới 2024</h2>
+                        <p class="news-desc">Đại học CMC tổ chức lễ khai giảng trang trọng, đón chào tân sinh viên với nhiều hoạt động thú vị và bổ ích.</p>
+                        <div class="news-time">
+                            <i class="fa-regular fa-clock"></i> 25/10/2024 09:30
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="news-item">
+                    <img src="https://cmc-u.edu.vn/tin-tuc/" alt="CMC News" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Học bổng toàn phần cho sinh viên xuất sắc 2024</h2>
+                        <p class="news-desc">Đại học CMC công bố danh sách sinh viên đạt học bổng toàn phần cho năm học 2024 với giá trị lên đến 100% học phí.</p>
+                        <div class="news-time">
+                            <i class="fa-regular fa-clock"></i> 20/10/2024 14:00
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="news-item">
+                    <img src="https://cmc-u.edu.vn/tin-tuc/" alt="CMC News" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Khánh thành thư viện hiện đại tại CMC</h2>
+                        <p class="news-desc">Thư viện mới của Đại học CMC chính thức đi vào hoạt động, cung cấp nhiều tài liệu học tập và nghiên cứu chất lượng.</p>
+                        <div class="news-time">
+                            <i class="fa-regular fa-clock"></i> 15/10/2024 10:15
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="news-item">
+                    <img src="https://cmc-u.edu.vn/tin-tuc/" alt="CMC News" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">CMC hợp tác quốc tế với Đại học Stanford</h2>
+                        <p class="news-desc">Đại học CMC ký kết thỏa thuận hợp tác chiến lược với Đại học Stanford, tạo cơ hội trao đổi sinh viên và nghiên cứu.</p>
+                        <div class="news-time">
+                            <i class="fa-regular fa-clock"></i> 10/10/2024 08:45
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <a href="#" class="see-more">Xem thêm</a>
+        </div>     
+    </section>
+    <div class="container">
+        <div class="infor">
+            <div class="program1 program main-section">
+                <h2 class="program__heading title-1">TUYỂN SINH ĐẠI HỌC CHÍNH QUY</h2>
+                <div class="program__thumnail">
+                </div>
+                <ul class="program__notifications">
+                    <li class="notification">
+                        <a href="https://cmc-u.edu.vn/cau-lac-bo/">
+                            <div class="noti__title">Thông báo v/v tuyển thành viên câu lạc bộ Tin học - CLB Học thuật xuất sắc nhất năm 2023</div>
+                            <div class="noti__desc">
+                                <p>Trường Đại học CMC thông báo v/v CLB Tin học tuyển thành viên năm 2023...</p>
+                            </div>
+                            <div class="noti__time">
+                                <i class="fa-regular fa-clock"></i> 25/09/2023 16:39
+                            </div>
+                        </a>
+                    </li>
+                    <li class="notification">
+                        <a href="https://cmc-u.edu.vn/thu-khoa-dau-vao-truong-dai-hoc-cmc-noi-khong-voi-thuc-dem-on-bai/">
+                            <div class="noti__title">Thông báo v/v vinh danh các thủ khoa đầu vào thi tốt nghiệp THPT năm 2023</div>
+                            <div class="noti__desc">
+                                <p>Các thủ khoa đầu vào Trường Đại học CMC năm 2023 đều thuộc khoa Công nghệ thông tin...</p>
+                            </div>
+                            <div class="noti__time">
+                                <i class="fa-regular fa-clock"></i> 01/09/2023 09:33
+                            </div>
+                        </a>
+                    </li>
+                    <li class="notification">
+                        <a href="https://cmc-u.edu.vn/thong-tin-tuyen-sinh-2023/">
+                            <div class="noti__title">Thông báo đăng ký xét tuyển đại học chính quy năm 2023</div>
+                            <div class="noti__desc">
+                                <p>Hội đồng Tuyển sinh Trường Đại học CMC thông báo việc đăng ký xét tuyển vào đại học chính quy năm 2023...</p>
+                            </div>
+                            <div class="noti__time">
+                                <i class="fa-regular fa-clock"></i> 25/06/2023 11:08
+                            </div>
+                        </a>
+                    </li>
+                    <li class="notification">
+                        <a href="https://cmc-u.edu.vn/diem-san-va-du-bao-diem-chuan-xet-tuyen-truong-dai-hoc-cmc-nam-2023/">
+                            <div class="noti__title">Thông báo điểm sàn đăng ký xét tuyển năm 2023</div>
+                            <div class="noti__desc">
+                                <p>Trường Đại học CMC thông báo điểm sàn đăng ký xét tuyển dựa trên kết quả thi tốt nghiệp THPT 2023...</p>
+                            </div>
+                            <div class="noti__time">
+                                <i class="fa-regular fa-clock"></i> 01/08/2023 09:33
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <button class="secondary see-more">Xem thêm</button>
+            </div>
+    
+            <div class="program2 program main-section">
+                <h2 class="program__heading title-1">VINH DANH THÀNH TÍCH SINH VIÊN</h2>
+                <div class="program__thumnail">
+                </div>
+                <ul class="program__notifications">
+                    <li class="notification">
+                        <a href="https://cmc-u.edu.vn/nhap-hoc-2023/">
+                            <div class="noti__title">Thông báo tuyển nghiên cứu sinh du học Pháp năm 2023</div>
+                            <div class="noti__desc">
+                                <p>Trường Đại học CMC bắt đầu nhận đơn đăng ký nghiên cứu sinh du học Pháp năm 2023...</p>
+                            </div>
+                            <div class="noti__time">
+                                <i class="fa-regular fa-clock"></i> 20/07/2023 14:35
+                            </div>
+                        </a>
+                    </li>
+                    <li class="notification">
+                        <a href="https://cmc-u.edu.vn/thong-tin-tuyen-sinh-2023/">
+                            <div class="noti__title">Thông báo tuyển nghiên cứu sinh du học Đức năm 2023</div>
+                            <div class="noti__desc">
+                                <p>Trường Đại học CMC bắt đầu nhận đơn đăng ký nghiên cứu sinh du học Đức năm 2023...</p>
+                            </div>
+                            <div class="noti__time">
+                                <i class="fa-regular fa-clock"></i> 20/07/2023 14:35
+                            </div>
+                        </a>
+                    </li>
+                    <li class="notification">
+                        <a href="https://cmc-u.edu.vn/tin-tuyen-sinh/">
+                            <div class="noti__title">Thông báo tuyển nghiên cứu sinh du học Mỹ năm 2023</div>
+                            <div class="noti__desc">
+                                <p>Trường Đại học CMC bắt đầu nhận đơn đăng ký nghiên cứu sinh du học Mỹ năm 2023...</p>
+                            </div>
+                            <div class="noti__time">
+                                <i class="fa-regular fa-clock"></i> 20/07/2023 14:35
+                            </div>
+                        </a>
+                    </li>
+                    <li class="notification">
+                        <a href="https://cmc-u.edu.vn/tin-tuyen-sinh/">
+                            <div class="noti__title">Thông báo tuyển nghiên cứu sinh du học Nhật năm 2023</div>
+                            <div class="noti__desc">
+                                <p>Trường Đại học CMC bắt đầu nhận đơn đăng ký nghiên cứu sinh du học Nhật năm 2023...</p>
+                            </div>
+                            <div class="noti__time">
+                                <i class="fa-regular fa-clock"></i> 20/07/2023 14:35
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <button class="secondary see-more">Xem thêm</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="attraction__infor">
+            <ul class="attraction__list">
+                <li class="attraction__item">
+                    <div class="icon__center">
+                        <div class="wow animate__animated animate__zoomIn">
+                            
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </h3>
+                        </div>
+                    </div>
+                    <a href="https://cmc-u.edu.vn/soi-noi-khong-khi-ngay-hoi-chao-don-tan-sinh-vien-nhap-hoc-truong-dai-hoc-cmc-khoa-3-nam-2024/" class="wow animate__animated animate__zoomIn">
+                        <h3 class="attraction__title">THƯ NGỎ</h3>
+                        <p class="attraction__desc">
+                            Đôi lời từ Ban lãnh đạo Khoa Công nghệ thông tin của Trường Đại học CMC gửi đến sinh viên và phụ huynh.
+                        </p>
+                    </a>
+                </li>
+    
+                <li class="attraction__item">
+                    <div class="icon__center">
+                        <div class="wow animate__animated animate__zoomIn">
+                            <h3 class="attraction__icon">
+                                <i class="fa-solid fa-question-circle"></i>
+                            </h3>
+                        </div>
+                    </div>
+                    <a href="https://cmc-u.edu.vn/ly-do-lua-chon-dai-hoc-cmc/" class="wow animate__animated animate__zoomIn">
+                        <h3 class="attraction__title">VÌ SAO CHỌN CMC?</h3>
+                        <p class="attraction__desc">
+                            Những lý do khiến Trường Đại học CMC trở thành sự lựa chọn lý tưởng cho sinh viên yêu thích công nghệ thông tin.
+                        </p>
+                    </a>
+                </li>
+    
+                <li class="attraction__item">
+                    <div class="icon__center">
+                        <div class="wow animate__animated animate__zoomIn">
+                            <h3 class="attraction__icon">
+                                <i class="fa-solid fa-info-circle"></i>
+                            </h3>
+                        </div>
+                    </div>
+                    <a href="https://cmc-u.edu.vn/truong-dai-hoc-cmc-lam-viec-voi-dai-dien-intel-viet-nam-ve-dao-tao-nhan-luc-chat-luong-cao-trong-linh-vuc-ai/" class="wow animate__animated animate__zoomIn">
+                        <h3 class="attraction__title">TỔNG QUAN VỀ CMC</h3>
+                        <p class="attraction__desc">
+                            Trường Đại học CMC với sứ mệnh phát triển nguồn nhân lực chất lượng cao trong lĩnh vực công nghệ và chuyển đổi số.
+                        </p>
+                    </a>
+                </li>
+    
+                <li class="attraction__item">
+                    <div class="icon__center">
+                        <div class="wow animate__animated animate__zoomIn">
+                            <h3 class="attraction__icon">
+                                <i class="fa-solid fa-comments"></i>
+                            </h3>
+                        </div>
+                    </div>
+                    <a href="https://cmc-u.edu.vn/cau-hoi-thuong-gap/" class="wow animate__animated animate__zoomIn">
+                        <h3 class="attraction__title">CÂU HỎI THƯỜNG GẶP</h3>
+                        <p class="attraction__desc">
+                            Giải đáp các câu hỏi phổ biến từ sinh viên liên quan đến học phí, chương trình đào tạo, và cơ hội nghề nghiệp tại CMC.
+                        </p>
+                    </a>
+                </li>
+    
+                <!-- Phần mới thêm vào -->
+                <li class="attraction__item">
+                    <div class="icon__center">
+                        <div class="wow animate__animated animate__zoomIn">
+                            <h3 class="attraction__icon">
+                                <i class="fa-solid fa-list-alt"></i>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__zoomIn">
+                        <h3 class="attraction__title">NỘI DUNG LIÊN QUAN</h3>
+                        <ul class="sub-list">
+                            <li><a href="https://cmc-u.edu.vn/chuong-trinh-dao-tao/">Giới thiệu ngành học</a></li>
+                            <li><a href="https://cmc-u.edu.vn/thong-tin-tuyen-sinh/#:~:text=X%C3%A9t%20tuy%E1%BB%83n%20s%E1%BB%9Bm%20(d%E1%BB%B1%20ki%E1%BA%BFn,%E2%80%93%2030%2F04%2F2024.">Lịch trình tuyển sinh</a></li>
+                            <li><a href="https://cmc-u.edu.vn/chuong-trinh-dao-tao/">Chương trình đào tạo</a></li>
+                            <li><a href="https://cmc-u.edu.vn/faculty-staffs/">Đội ngũ giảng viên</a></li>
+                        </ul>
+                    </div>
+                </li>
+    
+            </ul>
+        </div>
+    </div>
+    
+    <section id="register">
+        <h2>Đăng ký tham dự</h2>
+        <div class="form-container">
+            <form action="#" method="POST">
+                <label for="name">Họ và Tên:</label>
+                <input type="text" id="name" name="name" placeholder="Nhập họ và tên" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Nhập địa chỉ email" required>
+    
+                <label for="message">Lời nhắn (tùy chọn):</label>
+                <textarea id="message" name="message" rows="4" placeholder="Bạn có câu hỏi nào không?"></textarea>
+    
+                <button type="submit">Gửi đăng ký</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Hội Thảo Công Nghệ. Mọi quyền được bảo lưu.</p>
+    </footer>
+    
+
+
+    
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
